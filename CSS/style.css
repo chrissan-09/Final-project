@@ -1,0 +1,119 @@
+/* Body/home */
+body {
+    box-sizing: border-box;
+  
+}
+
+
+
+.main-nav{
+    position: sticky;
+    top: 0%;
+    background-color: rgb(245, 153, 34);
+}
+/* element bellow allows you to put list items in the same line. */
+nav li{
+display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    background-color: coral;
+    padding: 9px 15px;
+    text-align: center;
+    color: rgb(47, 42, 42);
+    border-radius: 12px;
+}
+a:hover{
+    background-color: burlywood;
+    color: aliceblue;
+} 
+
+a:visited{
+    color:blueviolet
+}
+
+header{
+    background-image: url();
+    background-size: cover;
+}
+h1{
+    text-shadow: 1px 1px 5px chocolate;
+    text-align: center;
+}
+.content{
+    float: left;
+    width: 60%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+aside{
+    float: left;
+    width: 40%;
+    padding: 10px 10px;
+    box-shadow: 5px 5px 5px #000;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+body {
+    background-image: url();
+}
+
+header, nav, .content, aside{
+    border: 2px solid black; 
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* .row::after {
+    content: "";
+    clear: both;
+} */
+
+.clearfix {
+    clear: both;
+}
+
+.secondary {
+    display: flex;
+}
+
+/* nav bar */
+.container{
+
+
+}
+
+/* footer */
+
+.footer {
+  background-color: #735c5c; 
+    
+    
+}
+
+
+.fa-brands{
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.fa-tiktok{
+   
+    color: rgb(238, 15, 15);
+}
+
+.fa-tiktok:hover{
+   background-color: antiquewhite;
+}
